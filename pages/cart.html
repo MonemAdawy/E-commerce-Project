@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/pages/cart.css">
+</head>
+<body>
+    <header class="d-flex">
+        <a class="logo" href="../index.html">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <b>AWU</b>
+            <p style="letter-spacing: 0.5px;">Shopping</p>
+        </a>
+        <div class="links">
+            <a class="cart" href="">
+                <i class="fa-solid fa-cart-shopping"></i>
+                $0.00
+                <span class="products-number">2</span>
+            </a>
+            <a class="sign-in" href=""><i class="fa-solid fa-right-to-bracket"></i>Sign in</a>
+            <a class="register" href=""><i class="fa-solid fa-user-plus"></i>Register</a>
+        </div>
+    </header>
+
+
+
+    <main class="d-flex">
+        <section class="cart-container">
+            <article class="product-cart d-flex">
+                <button><i class="fa-solid fa-trash-can"></i></button>
+                <p class="price">$133</p>
+                <div class="d-flex" style="margin-right: 1rem; align-items: center;">
+                    <button class="decrease">-</button>
+                    <p class="quantity d-flex">3</p>
+                    <button class="increase">+</button>
+                </div>
+                <p>product title</p>
+                <img src="../images/images/1.png" alt="" style="border-radius: 0.22rem;" width="70" height="70">
+            </article>
+
+            <article class="product-cart d-flex">
+                <button><i class="fa-solid fa-trash-can"></i></button>
+                <p class="price">$133</p>
+                <div class="d-flex" style="margin-right: 1rem; align-items: center;">
+                    <button class="decrease">-</button>
+                    <p class="quantity d-flex">3</p>
+                    <button class="increase">+</button>
+                </div>
+                <p>product title</p>
+                <img src="../images/images/1.png" alt="" style="border-radius: 0.22rem;" width="70" height="70">
+            </article>
+
+            <article class="product-cart d-flex">
+                <button><i class="fa-solid fa-trash-can"></i></button>
+                <p class="price">$133</p>
+                <div class="d-flex" style="margin-right: 1rem; align-items: center;">
+                    <button class="decrease">-</button>
+                    <p class="quantity d-flex">3</p>
+                    <button class="increase">+</button>
+                </div>
+                <p>product title</p>
+                <img src="../images/images/1.png" alt="" style="border-radius: 0.22rem;" width="70" height="70">
+            </article>
+        </section>
+
+
+
+        <button class="clear"><i class="fa-solid fa-trash-can"></i>Clear Cart</button>
+
+
+
+        <section class="summary">
+            <h1>Cart Summary</h1>
+            <div class="d-flex">
+                <p class="subtotal">Subtotal</p>
+                <p>$1999</p>
+            </div>
+            <button class="checkout" disabled>CHECKOUT</button>
+            <a href="signin.html">Please Sign in to continue</a>
+        </section>
+    </main>
+    
+
+
+    <footer>
+        developed by
+        <span> Abdelmonem Mahmoud </span>
+        © 2024.
+    </footer>
+
+</body>
+</html>
