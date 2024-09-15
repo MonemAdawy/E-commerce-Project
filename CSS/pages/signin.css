@@ -6,9 +6,12 @@ body{
     background-color: var(--footer-bg);
 }
 
+
+
 header{
     color: white;
     padding-block: 0.6rem;
+    
 
     & .fa-solid{
         color: white;
