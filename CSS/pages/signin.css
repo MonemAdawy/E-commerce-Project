@@ -103,3 +103,20 @@ main{
         width: 70%;
     }
 }
+
+
+
+.signinForm .error {
+    color: red;
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 15px;
+}
+
+.signinForm.success .input {
+    border: 2px solid green;
+}
+.signinForm.error .input {
+    border: 2px solid red;
+}

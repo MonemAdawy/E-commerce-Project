@@ -98,3 +98,22 @@ main{
         width: 70%;
     }
 }
+
+
+/* .mb input:focus {
+    outline: 0;
+} */
+
+.mb .error {
+    color: red;
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+}
+
+.mb.success .input {
+    border: 2px solid green;
+}
+.mb.error .input {
+    border: 2px solid red;
+}

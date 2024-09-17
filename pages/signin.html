@@ -32,16 +32,17 @@
 
 
     <main>
-        <form>
+        <form id="signinForm" class="signinForm">
             <div class="mb">
                 <label for="">Username</label>
-                <input type="text" class="input">
+                <input type="text" id="username_signin" class="input">
             </div>
 
             <div class="mb">
                 <label for="">Password</label>
-                <input type="password" class="input">
+                <input type="password" id="password_signin" class="input">
             </div>
+            <div class="error"></div>
 
             <div class="d-flex">
                 <div class="d-flex" style="align-items: center; margin-right: 6px;">
@@ -50,7 +51,7 @@
                 <label for="">Check Me Out</label>
             </div>
 
-            <button type="submit" class="btn-create-account">Sign In</button>
+            <button type="submit" class="btn-create-account" id="signin_btn">Sign In</button>
         </form>
     </main>
     
@@ -62,6 +63,9 @@
         © 2024.
     </footer>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/signin.js"></script>
 </body>
 </html>
 

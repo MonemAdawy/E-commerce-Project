@@ -1,3 +1,6 @@
+// nav scroll
+
+
 $(window).scroll(function(){
     let topOffset=$(window).scrollTop();
 
@@ -34,3 +37,5 @@ $(window).scroll(function(){
         $("header .logo").css({"scale":"1"})
     }
 })
+
+
