@@ -57,6 +57,7 @@ signinBtn.onclick=function(event){
     }
     else{
         setSuccess(username_signin);
+        window.location.href = "../index.html";
     }
 }
 
