@@ -36,6 +36,7 @@ header.d-flex{
 
     & .sign-in{
         margin-inline: 1rem;
+        
     }
 
     & .sign-in,& .register{
@@ -86,4 +87,8 @@ header.d-flex{
         }
     }
     
+}
+
+.sign-in_remove,.register_remove{
+    display: none;
 }

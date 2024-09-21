@@ -57,6 +57,7 @@ section.content{
         font-size: 0.9rem;
         border-radius: 3px;
         padding: 0.6rem 1.6rem;
+        
     }
 }
 
@@ -174,3 +175,6 @@ main{
         width: 55%;
     }
 }
+
+
+

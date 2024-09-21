@@ -5,6 +5,8 @@
 var usersToSignin=JSON.parse(localStorage.getItem("usersList"));
 
 
+
+
 function setError(elem, msg){
     let box = elem.parentElement;
     // let error = box.querySelector(".error");
@@ -34,6 +36,7 @@ var signinBtn=document.getElementById("signin_btn");
 
 signinBtn.onclick=function(event){
     var signinBool=false;
+    var signintrue=false;
 
     event.preventDefault();
 
@@ -49,15 +52,19 @@ signinBtn.onclick=function(event){
         }
     }
 
-    if(username_signin=="" || pass_signin=="") {
+    if(username_signin.value==="" || pass_signin.value==="") {
         setError(username_signin, "Input field has no value");
+        localStorage.setItem("signintrue", false);
     }
     else if(signinBool==false) {
         setError(username_signin, "Something is wrong");
+        localStorage.setItem("signintrue", false);
     }
     else{
         setSuccess(username_signin);
         window.location.href = "../index.html";
+        localStorage.setItem("signintrue", true);
+        
     }
 }
 
